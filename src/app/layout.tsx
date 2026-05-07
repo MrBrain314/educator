@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { Jost, Roboto, Geist } from "next/font/google";
-import Navbar from "@/components/layout/Navbar";
 import "./globals.css";
 import { cn } from "@/lib/utils";
 
@@ -31,7 +30,6 @@ export default function RootLayout({
   return (
     <html lang="en" className={cn("font-sans", geist.variable)}>
       <body className={`${jost.variable} ${roboto.variable}`}>
-        <Navbar />
         {children}
       </body>
     </html>
