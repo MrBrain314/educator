@@ -51,8 +51,7 @@ export default function Header() {
           </h1>
 
           <p className="text-slate-500 text-base lg:text-lg leading-relaxed max-w-md mt-4">
-            Integer in magna in est ultrices bibendum eget enim et dui imperdiet
-            faucibus. Fusce eu tristique felis.
+           Welcome to our platform, where you can explore a wide range of resources designed to help you learn, grow, and succeed.
           </p>
 
           <div className="flex items-center gap-4 flex-wrap mt-2">
