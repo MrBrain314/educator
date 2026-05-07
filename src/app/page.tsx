@@ -3,6 +3,7 @@ import About from "@/components/sections/About";
 import Category from "@/components/sections/Category";
 import Courses from "@/components/sections/Courses";
 import Header from "@/components/sections/Header";
+import Event from "@/components/sections/Event";
 
 export default function HomePage() {
   return (
@@ -12,6 +13,7 @@ export default function HomePage() {
       <Category />
       <About />
       <Courses />
+      <Event />
     </main>
   );
 }
