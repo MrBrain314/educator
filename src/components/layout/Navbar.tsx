@@ -47,9 +47,9 @@ export default function Navbar() {
 
         {/* Bouton CTA desktop */}
         <div className="hidden md:block">
-          <button className="relative overflow-hidden bg-orange-500 text-white font-semibold px-10 py-4 rounded-2xl group uppercase tracking-wide">
+          <button className="relative overflow-hidden bg-orange-500 text-white font-semibold px-8 py-4 rounded-sm group uppercase tracking-wide">
             <span className="relative z-10">Try for free</span>
-            <span className="absolute inset-y-0 right-0 w-20 bg-slate-900 rounded-2xl transition-all duration-500 ease-in-out group-hover:w-full" />
+            <span className="absolute inset-y-0 right-0 w-20 bg-slate-900 rounded-sm transition-all duration-500 ease-in-out group-hover:w-full" />
           </button>
         </div>
 
