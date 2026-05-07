@@ -1,0 +1,51 @@
+// data/categories.ts
+export const categories = [
+  {
+    id: 1,
+    title: "Learn Data Science",
+    subtitle: "Data is Everything",
+    href: "/categories/data-science",
+    icon: "/images/course-category-icon-1.png",
+    iconWhite: "/images/course-category-icon-1-w.png",
+  },
+  {
+    id: 2,
+    title: "Business Strategy",
+    subtitle: "Improve your business",
+    href: "/categories/business-strategy",
+    icon: "/images/course-category-icon-2.png",
+    iconWhite: "/images/course-category-icon-2-w.png",
+  },
+  {
+    id: 3,
+    title: "Learn Art & Design",
+    subtitle: "Fun & Challenging",
+    href: "/categories/art-design",
+    icon: "/images/course-category-icon-3.png",
+    iconWhite: "/images/course-category-icon-3-w.png",
+  },
+  {
+    id: 4,
+    title: "Learn Lifestyle",
+    subtitle: "New Skills, New You",
+    href: "/categories/lifestyle",
+    icon: "/images/course-category-icon-4.png",
+    iconWhite: "/images/course-category-icon-4-w.png",
+  },
+  {
+    id: 5,
+    title: "Learn Marketing",
+    subtitle: "Improve your business",
+    href: "/categories/marketing",
+    icon: "/images/course-category-icon-5.png",
+    iconWhite: "/images/course-category-icon-5-w.png",
+  },
+  {
+    id: 6,
+    title: "Learn Finance",
+    subtitle: "Fun & Challenging",
+    href: "/categories/finance",
+    icon: "/images/course-category-icon-6.png",
+    iconWhite: "/images/course-category-icon-6-w.png",
+  },
+];
