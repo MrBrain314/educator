@@ -5,9 +5,15 @@ export default function Header() {
   return (
     <section
       id="home"
-      className="relative w-screen bg-gradient-to-r from-blue-100 via-slate-50 to-orange-100 flex items-center overflow-hidden py-16 lg:py-24"
+      className="relative w-screen flex items-center overflow-hidden py-16 lg:py-24"
+      style={{
+        background: `
+      radial-gradient(ellipse at top left, #dbeafe 0%, transparent 50%),
+      radial-gradient(ellipse at top right, #fed7aa 0%, transparent 50%),
+      white
+    `,
+      }}
     >
-
       {/* ---- Shapes décoratifs ---- */}
       <div className="absolute top-30 left-6 z-0">
         <Image src="/images/shape-1.png" alt="" width={70} height={70} />
@@ -24,10 +30,8 @@ export default function Header() {
 
       {/* ---- Contenu centré ---- */}
       <div className="relative z-10 w-full max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-
         {/* ---- Colonne gauche ---- */}
         <div className="flex flex-col gap-6">
-
           <p className="text-blue-600 font-black text-lg uppercase tracking-widest">
             Welcome To Online Coaching
           </p>
@@ -47,7 +51,7 @@ export default function Header() {
           </h1>
 
           <p className="text-slate-500 text-base lg:text-lg leading-relaxed max-w-md mt-4">
-            Integer in magna in est ultrices bibendum eget enim et dui imperdiet faucibus. Fusce eu tristique felis.
+           Welcome to our platform, where you can explore a wide range of resources designed to help you learn, grow, and succeed.
           </p>
 
           <div className="flex items-center gap-4 flex-wrap mt-2">
@@ -64,14 +68,11 @@ export default function Header() {
                 <span className="absolute inset-y-2 right-5 w-10 bg-orange-500 rounded-sm transition-all duration-500 ease-in-out group-hover:w-full" />
               </button>
             </Link>
-
           </div>
-
         </div>
 
         {/* ---- Colonne droite ---- */}
         <div className="relative hidden lg:flex justify-center items-center min-h-[520px]">
-
           {/* Background shape */}
           <div className="absolute inset-0 flex justify-center items-center">
             <Image
@@ -96,25 +97,44 @@ export default function Header() {
 
           {/* Icône flottante 1 - Congratulations (en haut à gauche de l'image) */}
           <div className="absolute top-60 -left-0 z-20 animate-[zigzag_4s_ease-in-out_infinite]">
-            <Image src="/images/banner-aliment-icon-1.png" alt="" width={250} height={100} />
+            <Image
+              src="/images/banner-aliment-icon-1.png"
+              alt=""
+              width={250}
+              height={100}
+            />
           </div>
 
           {/* Icône flottante 2 - User Experience Class (à droite milieu) */}
           <div className="absolute top-95 -right-0 z-20 -translate-y-1/2 animate-[zigzag_4s_ease-in-out_infinite_1s]">
-            <Image src="/images/banner-aliment-icon-2.png" alt="" width={240} height={100} />
+            <Image
+              src="/images/banner-aliment-icon-2.png"
+              alt=""
+              width={240}
+              height={100}
+            />
           </div>
 
           {/* Icône flottante 3 - 578k Assisted Student (en bas) */}
           <div className="absolute bottom-8 left-4 z-20 animate-[zigzag_4s_ease-in-out_infinite_0.5s]">
-            <Image src="/images/banner-aliment-icon-3.png" alt="" width={195} height={80} />
+            <Image
+              src="/images/banner-aliment-icon-3.png"
+              alt=""
+              width={195}
+              height={80}
+            />
           </div>
 
           {/* Icône flottante 4 - petite icône (haut droite) */}
           <div className="absolute top-4 right-4 z-20 animate-bounce">
-            <Image src="/images/banner-aliment-icon-4.png" alt="" width={80} height={80} />
+            <Image
+              src="/images/banner-aliment-icon-4.png"
+              alt=""
+              width={80}
+              height={80}
+            />
           </div>
         </div>
-
       </div>
     </section>
   );
