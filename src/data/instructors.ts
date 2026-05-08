@@ -5,9 +5,9 @@ export const instructors = [
     title: "Instructor",
     image: "/images/instructor-1.jpg",
     social: {
-      facebook: "#",
-      instagram: "#",
-      twitter: "#",
+      facebook: "/instructors/links",
+      instagram: "/instructors/links",
+      twitter: "/instructors/links",
     },
   },
   {
@@ -16,9 +16,9 @@ export const instructors = [
     title: "Instructor",
     image: "/images/instructor-2.jpg",
     social: {
-      facebook: "#",
-      instagram: "#",
-      twitter: "#",
+      facebook: "/instructors/links",
+      instagram: "/instructors/links",
+      twitter: "/instructors/links",
     },
   },
   {
@@ -27,9 +27,9 @@ export const instructors = [
     title: "Instructor",
     image: "/images/instructor-3.jpg",
     social: {
-      facebook: "#",
-      instagram: "#",
-      twitter: "#",
+      facebook: "/instructors/links",
+      instagram: "/instructors/links",
+      twitter: "/instructors/links",
     },
   },
   {
@@ -38,9 +38,9 @@ export const instructors = [
     title: "Instructor",
     image: "/images/instructor-4.jpg",
     social: {
-      facebook: "#",
-      instagram: "#",
-      twitter: "#",
+      facebook: "/instructors/links",
+      instagram: "/instructors/links",
+      twitter: "/instructors/links",
     },
   },
 ];

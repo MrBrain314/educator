@@ -5,7 +5,7 @@ import { instructors } from "@/data/instructors";
 
 export default function Instructors() {
   return (
-    <section className="w-full py-16 lg:py-24 bg-white">
+    <section id="instructors" className="w-full py-16 lg:py-24 bg-white">
       <div className="max-w-7xl mx-auto px-6">
 
         {/* Header */}

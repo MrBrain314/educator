@@ -7,6 +7,7 @@ import Event from "@/components/sections/Event";
 import Features from "@/components/sections/Features";
 import Instructors from "@/components/sections/Instructors";
 import Testimonials from "@/components/sections/Testimonials";
+import Blog from "@/components/sections/Blog";
 
 export default function HomePage() {
   return (
@@ -20,6 +21,7 @@ export default function HomePage() {
       <Features />
       <Instructors />
       <Testimonials />
+      <Blog />
     </main>
   );
 }
