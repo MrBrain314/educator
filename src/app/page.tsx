@@ -5,6 +5,7 @@ import Courses from "@/components/sections/Courses";
 import Header from "@/components/sections/Header";
 import Event from "@/components/sections/Event";
 import Features from "@/components/sections/Features";
+import Instructors from "@/components/sections/Instructors";
 
 export default function HomePage() {
   return (
@@ -16,6 +17,7 @@ export default function HomePage() {
       <Courses />
       <Event />
       <Features />
+      <Instructors />
     </main>
   );
 }
