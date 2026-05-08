@@ -10,7 +10,7 @@ export default function Instructors() {
 
         {/* Header */}
         <div className="text-center mb-12">
-          <p className="text-blue-600 font-extrabold text-sm uppercase tracking-widest mb-4">
+          <p className="text-blue-600 font-extrabold text-lg uppercase tracking-widest mb-4">
             Best Coach
           </p>
           <h2 className="text-3xl lg:text-4xl font-black text-slate-900">

@@ -6,6 +6,7 @@ import Header from "@/components/sections/Header";
 import Event from "@/components/sections/Event";
 import Features from "@/components/sections/Features";
 import Instructors from "@/components/sections/Instructors";
+import Testimonials from "@/components/sections/Testimonials";
 
 export default function HomePage() {
   return (
@@ -18,6 +19,7 @@ export default function HomePage() {
       <Event />
       <Features />
       <Instructors />
+      <Testimonials />
     </main>
   );
 }
