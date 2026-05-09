@@ -19,7 +19,6 @@ export default function Navbar() {
   return (
     <header className="sticky top-0 z-50 w-full bg-white shadow-sm">
       <nav className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-
         {/* Logo */}
         <Link href="/">
           <Image
@@ -47,10 +46,12 @@ export default function Navbar() {
 
         {/* Bouton CTA desktop */}
         <div className="hidden md:block">
-          <button className="relative overflow-hidden bg-orange-500 text-white font-semibold px-8 py-4 rounded-sm group uppercase tracking-wide">
-            <span className="relative z-10">Try for free</span>
-            <span className="absolute inset-y-0 right-0 w-15 bg-slate-900 rounded-sm transition-all duration-500 ease-in-out group-hover:w-full" />
-          </button>
+          <Link href="/others/others-links">
+            <button className="relative overflow-hidden bg-orange-500 text-white font-semibold px-8 py-4 rounded-sm group uppercase tracking-wide">
+              <span className="relative z-10">Try for free</span>
+              <span className="absolute inset-y-0 right-0 w-15 bg-slate-900 rounded-sm transition-all duration-500 ease-in-out group-hover:w-full" />
+            </button>
+          </Link>
         </div>
 
         {/* Burger menu mobile */}
@@ -61,13 +62,11 @@ export default function Navbar() {
         >
           {isMenuOpen ? <X size={26} /> : <Menu size={26} />}
         </button>
-
       </nav>
 
       {/* Menu mobile déroulant */}
       {isMenuOpen && (
         <div className="md:hidden bg-white border-t border-slate-100 px-6 py-4 flex flex-col gap-4">
-
           {navLinks.map((link) => (
             <Link
               key={link.href}
@@ -80,11 +79,12 @@ export default function Navbar() {
           ))}
 
           {/* CTA mobile */}
-          <button className="relative overflow-hidden bg-orange-500 text-white font-semibold px-10 py-4 rounded-2xl w-full mt-2 group uppercase tracking-wide">
-            <span className="relative z-10">Try for free</span>
-            <span className="absolute inset-y-0 right-0 w-35 bg-slate-900 rounded-2xl transition-all duration-500 ease-in-out group-hover:w-full" />
-          </button>
-
+          <Link href="/register" className="w-full">
+            <button className="relative overflow-hidden bg-orange-500 text-white font-semibold px-10 py-4 rounded-2xl w-full mt-2 group uppercase tracking-wide">
+              <span className="relative z-10">Try for free</span>
+              <span className="absolute inset-y-0 right-0 w-35 bg-slate-900 rounded-2xl transition-all duration-500 ease-in-out group-hover:w-full" />
+            </button>
+          </Link>
         </div>
       )}
     </header>
