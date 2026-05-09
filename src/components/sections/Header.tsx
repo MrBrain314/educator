@@ -35,7 +35,7 @@ export default function Header() {
             academic and career goals with confidence.
           </p>
 
-          <div className="flex items-center gap-4 flex-wrap mt-2">
+          <div className="flex flex-col items-center sm:flex-row sm:items-start gap-4 mt-2">
             <Link href="#course">
               <button className="relative overflow-hidden bg-orange-500 text-white font-semibold px-10 py-5 rounded-sm group uppercase tracking-wide text-sm">
                 <span className="relative z-10">Explore Courses</span>
@@ -47,7 +47,6 @@ export default function Header() {
             <Link href="#contact">
               <button className="relative overflow-hidden bg-slate-900 text-white font-semibold px-10 py-5 rounded-sm group uppercase tracking-wide text-sm">
                 <span className="relative z-10">Contact Us</span>
-
                 <span className="absolute inset-y-0 right-0 w-15 bg-orange-500 rounded-sm transition-all duration-500 ease-in-out group-hover:w-full" />
               </button>
             </Link>

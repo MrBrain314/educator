@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Jost, Roboto, Geist } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
+import Footer from "@/components/layout/Footer";
 
 const geist = Geist({subsets:['latin'],variable:'--font-sans'});
 
@@ -31,6 +32,7 @@ export default function RootLayout({
     <html lang="en" className={cn("font-sans", geist.variable)}>
       <body className={`${jost.variable} ${roboto.variable}`}>
         {children}
+        <Footer />
       </body>
     </html>
   );

@@ -8,7 +8,7 @@ export default function Courses() {
     <section id="course" className="w-full py-16 lg:py-24 bg-white">
       <div className="max-w-7xl mx-auto px-6">
         {/* Header */}
-        <div className="flex items-start justify-between mb-12">
+        <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between mb-12 gap-6">
           <div>
             <p className="text-blue-600 font-extrabold text-lg uppercase tracking-widest mb-4">
               Our Online Courses
@@ -18,14 +18,12 @@ export default function Courses() {
             </h2>
           </div>
 
-          <div className="shrink-0 mt-2">
-            <Link
-              href="/courses/courses-preparation"
-              className="relative flex items-center justify-center overflow-hidden bg-orange-500 text-white font-bold uppercase tracking-wider text-sm rounded-md w-[240px] h-[64px] group"
-            >
-              <span className="relative z-10">View All Course</span>
-
-              <span className="absolute top-0 right-0 h-full w-[38%] bg-slate-900 rounded-l-2xl transition-all duration-500 ease-in-out group-hover:w-full group-hover:rounded-none" />
+          <div className="shrink-0 w-full sm:w-auto">
+            <Link href="/courses/courses-preparation">
+              <button className="relative flex items-center justify-center overflow-hidden bg-orange-500 text-white font-bold uppercase tracking-wider text-sm rounded-md w-full sm:w-[240px] h-[64px] group">
+                <span className="relative z-10">View All Course</span>
+                <span className="absolute top-0 right-0 h-full w-[38%] bg-slate-900 rounded-l-2xl transition-all duration-500 ease-in-out group-hover:w-full group-hover:rounded-none" />
+              </button>
             </Link>
           </div>
         </div>
