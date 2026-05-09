@@ -4,7 +4,7 @@ import { categories } from "@/data/categories";
 
 export default function Category() {
   return (
-    <section id="categories" className="w-full pt-0 pb-16 lg:pt-12 lg:pb-24 bg-white">
+    <section id="categories" className="w-full mt-8 pt-0 pb-16 lg:pt-12 lg:pb-24 bg-white">
       <div className="max-w-7xl mx-auto px-6">
 
         {/* Header */}
