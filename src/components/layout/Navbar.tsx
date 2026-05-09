@@ -79,7 +79,7 @@ export default function Navbar() {
           ))}
 
           {/* CTA mobile */}
-          <Link href="/register" className="w-full">
+          <Link href="/others/others-links" className="w-full">
             <button className="relative overflow-hidden bg-orange-500 text-white font-semibold px-10 py-4 rounded-2xl w-full mt-2 group uppercase tracking-wide">
               <span className="relative z-10">Try for free</span>
               <span className="absolute inset-y-0 right-0 w-35 bg-slate-900 rounded-2xl transition-all duration-500 ease-in-out group-hover:w-full" />
