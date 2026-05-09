@@ -47,6 +47,3 @@ Open [http://localhost:3000](http://localhost:3000)
 ## Author
  
 **MrBrain** - [@MrBrain314](https://github.com/MrBrain314)
-## Author
-
-**MrBrain** — [@MrBrain314](https://github.com/MrBrain314)
